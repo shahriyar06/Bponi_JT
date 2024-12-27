@@ -1,14 +1,21 @@
 import { IoMdStar } from "react-icons/io";
 import Card from "../Component/Card";
 import { IoInformationCircleOutline } from "react-icons/io5";
+import RestaurantSideNav from "../Share/RestaurantSideNav";
+import AddtoCard from './../Component/AddtoCard';
+import { TfiGift } from "react-icons/tfi";
 
 
 const Restaurant = () => {
     return (
-        <div className="bg-[#F5F4F2]">
+        <div className="bg-[#F5F4F2] pt-8">
             <h1>This is restaurant page.</h1>
-            <div className="w-10/12 mx-auto grid grid-cols-11 gap-5">
-                <div className="col-span-2"></div>
+            <div className="w-10/12 mx-auto grid grid-cols-11 gap-6">
+                {/* restaurant Side Navbar */}
+                <div className="col-span-2">
+                    <RestaurantSideNav />
+                </div>
+                {/* Restaurant Details */}
                 <div className="col-span-6">
                     {/* Restaurant Banner */}
                     <div className="my-4">
@@ -41,11 +48,22 @@ const Restaurant = () => {
                             </div>
                         </div>
                     </div>
+                    {/* delivery */}
+                    <div className="text-[#518931] bg-[#a8e08852] py-5 px-7 rounded-3xl flex items-center gap-3 my-8">
+                        <div>
+                            <TfiGift className="text-4xl"/>
+                        </div>
+                        <h1 className="text-xl">Free delivery - on any order</h1>
+                    </div>
+                    {/* Menu */}
                     <div className="mt-9">
                         <Card></Card>
                     </div>
                 </div>
-                <div className="col-span-3"></div>
+                {/* Coustomer Add to card */}
+                <div className="col-span-3">
+                    <AddtoCard />
+                </div>
             </div>
         </div>
     );

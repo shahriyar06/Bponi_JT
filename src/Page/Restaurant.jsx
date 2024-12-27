@@ -11,7 +11,7 @@ const Restaurant = () => {
                 <div className="col-span-2"></div>
                 <div className="col-span-6">
                     {/* Restaurant Banner */}
-                    {/* <div className="my-4">
+                    <div className="my-4">
                         <div className="relative h-96 w-full rounded-3xl overflow-hidden">
                             <img
                                 src="https://i.ibb.co/JBpmJ1R/1.jpg"
@@ -40,7 +40,7 @@ const Restaurant = () => {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                     <div className="mt-9">
                         <Card></Card>
                     </div>

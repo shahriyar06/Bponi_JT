@@ -3,10 +3,31 @@ import logo from "../../public/Logo.png"
 import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
 import { Link } from "react-router-dom";
 import { FiGlobe } from "react-icons/fi";
+import { useEffect, useState } from "react";
 
 const Navbar = () => {
+
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    // Add scroll listener
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 0) {
+                setIsScrolled(true);
+            } else {
+                setIsScrolled(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <div className="bg-[#F5F4F2]">
+        <div className={`bg-[#F5F4F2] fixed top-0 left-0 w-full z-50 ${isScrolled ? "shadow-xl" : "border-b border-[#cecece]"
+            }`} >
             {/* Laptop */}
             <div className="h-20 flex py-4 px-3 items-center justify-between">
                 <div className="flex items-center gap-2">
@@ -29,7 +50,7 @@ const Navbar = () => {
                 <div className="pr-7 flex items-center gap-6">
                     {/* language */}
                     <div className="flex flex-col items-center">
-                        <FiGlobe className="text-2xl"/>
+                        <FiGlobe className="text-2xl" />
                         <h1 className="text-sm">English</h1>
                     </div>
                     {/* login */}

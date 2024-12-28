@@ -1,11 +1,13 @@
 import { FaApple, FaGooglePlay, FaRegCopyright } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 
 const Footer = () => {
+    const location = useLocation(); 
+    const isHomeRoute = location.pathname === "/";
     return (
-        <div className="bg-[#F5F4F2]">
+        <div className={isHomeRoute ? "bg-[#F5F4F2]" : "bg-[#FFFFFF]"}>
             <div className="w-10/12 mx-auto">
                 {/* 1st part */}
                 <div className="py-20">

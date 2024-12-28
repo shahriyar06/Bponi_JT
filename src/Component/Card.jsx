@@ -2,7 +2,7 @@ import { GoPlus } from "react-icons/go";
 import { Link } from "react-router-dom";
 
 
-const Card = ({ item }) => {
+const Card = ({ item, onAddToCart }) => {
     return (
         <div className="bg-[#FFFFFF] w-full rounded-3xl flex flex-col">
             <div className="p-4 pt-6">
@@ -16,7 +16,7 @@ const Card = ({ item }) => {
             <div className="px-4 pb-3">
                 {
                     item.available === "Available" ?
-                        <Link><button className="py-3 w-full bg-[#E7E5E1] text-lg rounded-xl flex items-center gap-2 justify-center"><GoPlus className="text-2xl" />Add</button></Link>
+                        <Link><button onClick={() => onAddToCart(item)} className="py-3 w-full bg-[#E7E5E1] text-lg rounded-xl flex items-center gap-2 justify-center"><GoPlus className="text-2xl" />Add</button></Link>
                         :
                         <button className="py-3 w-full bg-[#E7E5E1] text-lg rounded-xl flex items-center gap-2 justify-center mt-2">Available soon</button>
                 }

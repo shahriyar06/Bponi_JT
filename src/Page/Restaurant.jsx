@@ -14,6 +14,7 @@ const Restaurant = () => {
     const [menu, setMenu] = useState([]);
     const [categories, setCategories] = useState([]);
     const [showModal, setShowModal] = useState(false);
+    const [cartItems, setCartItems] = useState([]);
 
     useEffect(() => {
         fetch("https://bponi-jt-server.vercel.app/menu")
@@ -27,6 +28,14 @@ const Restaurant = () => {
 
     const toggleModal = () => {
         setShowModal(!showModal);
+    };
+
+    const handleAddToCart = (item) => {
+        setCartItems((prevItems) => [...prevItems, item]);
+    };
+    const handleOrder = () => {
+        
+        setCartItems([]);
     };
 
 
@@ -91,7 +100,7 @@ const Restaurant = () => {
                                     {menu
                                         .filter((item) => item.category === category)
                                         .map((item) => (
-                                            <Card key={item.product_name} item={item} />
+                                            <Card key={item.product_name} item={item} onAddToCart={handleAddToCart} />
                                         ))}
                                 </div>
                             </div>
@@ -101,7 +110,7 @@ const Restaurant = () => {
 
                 {/* Customer Add to Card */}
                 <div className="col-span-3 sticky top-24 h-[calc(100vh-96px)] z-10">
-                    <AddtoCard />
+                    <AddtoCard cartItems={cartItems} onOrder={handleOrder}/>
                 </div>
             </div>
         </div>

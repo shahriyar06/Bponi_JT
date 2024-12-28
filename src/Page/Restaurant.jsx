@@ -41,17 +41,17 @@ const Restaurant = () => {
 
     return (
         <div className="bg-[#F5F4F2] pt-24">
-            <div className="w-10/12 mx-auto grid grid-cols-11 gap-5">
+            <div className="lg:w-10/12 px-3 lg:px-0 mx-auto grid lg:grid-cols-11 grid-cols-8 gap-5">
                 {/* Restaurant Side Navbar */}
-                <div className="col-span-2 sticky top-24 h-[calc(100vh-96px)]">
-                    <RestaurantSideNav />
+                <div className="col-span-2 sticky top-24 lg:h-[calc(100vh-96px)]">
+                    <RestaurantSideNav cartItems={cartItems} onOrder={handleOrder}/>
                 </div>
 
                 {/* Restaurant Details */}
-                <div className="col-span-6 overflow-y-auto max-h-[calc(100vh-96px)] no-scrollbar scrollable-container">
+                <div className="col-span-6 overflow-y-auto lg:max-h-[calc(100vh-96px)] max-h-[calc(100vh)] no-scrollbar scrollable-container w-full">
                     {/* Restaurant Banner */}
                     <div className="mb-4">
-                        <div className="relative h-96 w-full rounded-3xl overflow-hidden">
+                        <div className="relative h-96 w-full rounded-3xl overflow-hidden" style={{ zIndex: 1 }}>
                             <img
                                 src="https://i.ibb.co/JBpmJ1R/1.jpg"
                                 alt=""
@@ -109,7 +109,7 @@ const Restaurant = () => {
                 </div>
 
                 {/* Customer Add to Card */}
-                <div className="col-span-3 sticky top-24 h-[calc(100vh-96px)] z-10">
+                <div className="lg:col-span-3 lg:block hidden sticky top-24 h-[calc(100vh-96px)] z-10">
                     <AddtoCard cartItems={cartItems} onOrder={handleOrder}/>
                 </div>
             </div>

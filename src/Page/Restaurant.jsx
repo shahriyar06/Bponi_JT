@@ -4,21 +4,37 @@ import { IoInformationCircleOutline } from "react-icons/io5";
 import RestaurantSideNav from "../Share/RestaurantSideNav";
 import AddtoCard from './../Component/AddtoCard';
 import { TfiGift } from "react-icons/tfi";
+import { useEffect, useState } from "react";
+import './../App.css'
 
 
 const Restaurant = () => {
+
+    const [menu, setMenu] = useState([]);
+    const [categories, setCategories] = useState([]);
+
+    useEffect(() => {
+        fetch("menu.json")
+            .then((res) => res.json())
+            .then((data) => {
+                setMenu(data);
+                const uniqueCategories = [...new Set(data.map((item) => item.category))];
+                setCategories(uniqueCategories);
+            });
+    }, []);
+
+
     return (
         <div className="bg-[#F5F4F2] pt-8">
-            <h1>This is restaurant page.</h1>
-            <div className="w-10/12 mx-auto grid grid-cols-11 gap-6">
+            <div className="w-10/12 mx-auto grid grid-cols-11 gap-5">
                 {/* restaurant Side Navbar */}
                 <div className="col-span-2">
                     <RestaurantSideNav />
                 </div>
                 {/* Restaurant Details */}
-                <div className="col-span-6">
+                <div className="col-span-6 overflow-y-auto max-h-screen no-scrollbar">
                     {/* Restaurant Banner */}
-                    <div className="my-4">
+                    <div className="mb-4">
                         <div className="relative h-96 w-full rounded-3xl overflow-hidden">
                             <img
                                 src="https://i.ibb.co/JBpmJ1R/1.jpg"
@@ -51,13 +67,28 @@ const Restaurant = () => {
                     {/* delivery */}
                     <div className="text-[#518931] bg-[#a8e08852] py-5 px-7 rounded-3xl flex items-center gap-3 my-8">
                         <div>
-                            <TfiGift className="text-4xl"/>
+                            <TfiGift className="text-4xl" />
                         </div>
                         <h1 className="text-xl">Free delivery - on any order</h1>
                     </div>
                     {/* Menu */}
                     <div className="mt-9">
-                        <Card></Card>
+                        {
+                            categories.map((category) => (
+                                <div key={category} id={category.toLowerCase().replace(/\s+/g, "-")} className="mb-10">
+                                    <h2 className="text-3xl font-bold mb-6">{category}</h2>
+                                    <div className="grid grid-cols-3 gap-2">
+                                        {
+                                            menu
+                                                .filter((item) => item.category === category)
+                                                .map((item) => (
+                                                    <Card key={item.product_name} item={item} />
+                                                ))
+                                        }
+                                    </div>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
                 {/* Coustomer Add to card */}

@@ -1,0 +1,63 @@
+[
+    {
+      "user_name": "John Doe",
+      "ratings": 5,
+      "postdate": "2024-12-20",
+      "comment": "The food was amazing and perfectly cooked!"
+    },
+    {
+      "user_name": "Jane Smith",
+      "ratings": 4,
+      "postdate": "2024-12-18",
+      "comment": "Great taste, but the delivery was a bit late."
+    },
+    {
+      "user_name": "Michael Johnson",
+      "ratings": 3,
+      "postdate": "2024-12-15",
+      "comment": "The food was decent, but it could be better."
+    },
+    {
+      "user_name": "Emily Davis",
+      "ratings": 5,
+      "postdate": "2024-12-10",
+      "comment": "Absolutely loved the juicy chicken!"
+    },
+    {
+      "user_name": "Chris Brown",
+      "ratings": 2,
+      "postdate": "2024-12-08",
+      "comment": "The burgers were not fresh and quite cold."
+    },
+    {
+      "user_name": "Sophia Wilson",
+      "ratings": 4,
+      "postdate": "2024-12-05",
+      "comment": "Good experience, but the portion size could be larger."
+    },
+    {
+      "user_name": "David Martinez",
+      "ratings": 5,
+      "postdate": "2024-12-02",
+      "comment": "Best combo bucket I've ever tried!"
+    },
+    {
+      "user_name": "Olivia Taylor",
+      "ratings": 3,
+      "postdate": "2024-11-30",
+      "comment": "The drinks were refreshing, but the snacks were average."
+    },
+    {
+      "user_name": "Ethan Anderson",
+      "ratings": 4,
+      "postdate": "2024-11-28",
+      "comment": "Good service and tasty food overall."
+    },
+    {
+      "user_name": "Isabella Lee",
+      "ratings": 1,
+      "postdate": "2024-11-25",
+      "comment": "Very disappointing experience. Food was stale."
+    }
+  ]
+  

@@ -1,0 +1,383 @@
+[
+  {
+    "product_name": "Classic Solo Bucket",
+    "amount": "3",
+    "price": 5.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Solo Buckets",
+    "image": "https://eda.yandex/images/13058477/e593bba51dd8d458443ea6f69c988e82-216x188.jpeg"
+  },
+  {
+    "product_name": "Basket S: Wings and Legs",
+    "amount": "3",
+    "price": 6.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Solo Buckets",
+    "image": "https://i.ibb.co.com/27Nn5gD/2.jpg"
+  },
+  {
+    "product_name": "Basket M: Wings and Legs",
+    "amount": "5",
+    "price": 7.89,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Solo Buckets",
+    "image": "https://eda.yandex/images/3191933/a3f1ad2c456a5f3317bb51651382cb79-216x188.jpeg"
+  },
+  {
+    "product_name": "Spicy Solo Bucket",
+    "price": 6.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Solo Buckets",
+    "image": "https://eda.yandex/images/3793239/5bb2e868478071eb191df91fca266e25-216x188.jpeg"
+  },
+  {
+    "product_name": "Grilled Solo Bucket",
+    "price": 7.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Solo Buckets",
+    "image": "https://i.ibb.co.com/27Nn5gD/2.jpg"
+  },
+  {
+    "product_name": "BBQ Solo Bucket",
+    "price": 8.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Solo Buckets",
+    "image": "https://eda.yandex/images/1473782/e1802bbc7461882f737031014f35ff23-216x188.jpeg"
+  },
+  {
+    "product_name": "Family Solo Bucket",
+    "price": 15.99,
+    "PC": "1pc",
+    "available": "Available Soon",
+    "category": "Solo Buckets",
+    "image": "https://eda.yandex/images/1365461/de58259d284394f21024eaf6eedd7e72-216x188.jpeg"
+  },
+  {
+    "product_name": "Classic Combo",
+    "price": 9.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Combos",
+    "image": "https://eda.yandex/images/3805444/863bc0b5ec247958aea807b0e7c4951e-216x188.jpeg"
+  },
+  {
+    "product_name": "Spicy Combo",
+    "price": 10.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Combos",
+    "image": "https://eda.yandex/images/3806315/9e78443fd3863e54ee40e42a2d8ba842-216x188.jpeg"
+  },
+  {
+    "product_name": "Grilled Combo",
+    "price": 11.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Combos",
+    "image": "https://eda.yandex/images/931388/672ab713a5cef5ec5770645be7eeaddb-216x188.jpeg"
+  },
+  {
+    "product_name": "BBQ Combo",
+    "price": 12.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Combos",
+    "image": "https://eda.yandex/images/3806315/6d79c7efdfdd7f82aa80fb6fcbf47e0e-216x188.jpeg"
+  },
+  {
+    "product_name": "Family Combo",
+    "price": 19.99,
+    "PC": "1pc",
+    "available": "Available Soon",
+    "category": "Combos",
+    "image": "https://eda.yandex/images/3793239/3975c5729453b6e41a5e8dc73460299f-216x188.jpeg"
+  },
+  {
+    "product_name": "Chicken Box",
+    "price": 8.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Boxes",
+    "image": "https://eda.yandex/images/2761069/97cc7563c235d000e828278f428d9763-216x188.jpeg"
+  },
+  {
+    "product_name": "Family Feast Box",
+    "price": 20.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Boxes",
+    "image": "https://eda.yandex/images/3191933/08ca928627cdb37c891c6d6dd1df0538-216x188.jpeg"
+  },
+  {
+    "product_name": "Grilled Chicken Box",
+    "price": 10.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Boxes",
+    "image": "https://eda.yandex/images/3191933/02c0ddd757a2c55d8bd5a922b7a0c565-216x188.jpeg"
+  },
+  {
+    "product_name": "BBQ Chicken Box",
+    "price": 11.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Boxes",
+    "image": "https://eda.yandex/images/3793239/b2d83a2327a24ce5c9343ee41baed754-216x188.jpeg"
+  },
+  {
+    "product_name": "Snack Box",
+    "price": 5.99,
+    "PC": "1pc",
+    "available": "Available Soon",
+    "category": "Boxes",
+    "image": "https://eda.yandex/images/3508859/fc1f88623d9e32cd95d6498444f19b7f-216x188.jpeg"
+  },
+  {
+    "product_name": "Classic Burger",
+    "price": 4.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Burgers and Sandwiches",
+    "image": "https://eda.yandex/images/3772831/153479366b392a106e34d1ae925a8d49-216x188.jpeg"
+  },
+  {
+    "product_name": "Spicy Burger",
+    "price": 5.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Burgers and Sandwiches",
+    "image": "https://eda.yandex/images/13058477/0910b477002cfd7454534cfe3975952c-216x188.jpeg"
+  },
+  {
+    "product_name": "BBQ Burger",
+    "price": 5.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Burgers and Sandwiches",
+    "image": "https://eda.yandex/images/1472406/0e26805a219b0ac1ef2205574d2335d6-216x188.jpeg"
+  },
+  {
+    "product_name": "Crispy Chicken Sandwich",
+    "price": 6.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Burgers and Sandwiches",
+    "image": "https://eda.yandex/images/3805444/19b9bd502cf32203cf159215dd2cdc6d-216x188.jpeg"
+  },
+  {
+    "product_name": "Grilled Chicken Sandwich",
+    "price": 6.49,
+    "PC": "1pc",
+    "available": "Available Soon",
+    "category": "Burgers and Sandwiches",
+    "image": "https://eda.yandex/images/13058477/a2a4a86839e5bdc058146a2c464dd6bb-216x188.jpeg"
+  },
+  {
+    "product_name": "Classic Combo Bucket",
+    "price": 13.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Combo Buckets",
+    "image": "https://eda.yandex/images/3550919/70fa4060f71128ac5b9181c62cd9804b-216x188.jpeg"
+  },
+  {
+    "product_name": "Spicy Combo Bucket",
+    "price": 14.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Combo Buckets",
+    "image": "https://eda.yandex/images/13912834/e4adce574be092d686e521d3024865dd-216x188.jpeg"
+  },
+  {
+    "product_name": "Family Combo Bucket",
+    "price": 22.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Combo Buckets",
+    "image": "https://eda.yandex/images/1472406/9c5c44005d17c06b4ea7e90648f2aa6b-216x188.jpeg"
+  },
+  {
+    "product_name": "BBQ Combo Bucket",
+    "price": 16.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Combo Buckets",
+    "image": "https://eda.yandex/images/1365461/6b1970bd2c59af5ec9635feb863e862a-216x188.jpeg"
+  },
+  {
+    "product_name": "Grilled Combo Bucket",
+    "price": 15.99,
+    "PC": "1pc",
+    "available": "Available Soon",
+    "category": "Combo Buckets",
+    "image": "https://eda.yandex/images/3805444/7bc06cef2f00d5f37ba098e030e8058a-216x188.jpeg"
+  },
+  {
+    "product_name": "Classic Juicy Chicken",
+    "amount" : "1",
+    "price": 5.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Juicy Chicken",
+    "image": "https://eda.yandex/images/3772831/5695cbb5c2af8b083c95fb4620117106-216x188.jpeg"
+  },
+  {
+    "product_name": "Spicy Juicy Chicken",
+    "amount" : "3",
+    "price": 6.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Juicy Chicken",
+    "image": "https://eda.yandex/images/1397595/97285ac064e231cfa942e92e669ec130-216x188.jpeg"
+  },
+  {
+    "product_name": "Grilled Juicy Chicken",
+    "price": 8.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Juicy Chicken",
+    "image": "https://eda.yandex/images/3191933/7ae1522b88f5d1c9b32affca82479cd3-216x188.jpeg"
+  },
+  {
+    "product_name": "Extra Crispy Juicy Chicken",
+    "price": 8.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Juicy Chicken",
+    "image": "https://eda.yandex/images/13190335/a6dd5b9a5e8c1250ed97c59f7389cf74-216x188.jpeg"
+  },
+  {
+    "product_name": "BBQ Juicy Chicken",
+    "price": 7.99,
+    "PC": "1pc",
+    "available": "Available Soon",
+    "category": "Juicy Chicken",
+    "image": "https://eda.yandex/images/13912834/a5fd3f0282d4a6b3e4864cc7c3c15644-216x188.jpeg"
+  },
+  {
+    "product_name": "Fries",
+    "price": 2.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Snacks",
+    "image": "https://eda.yandex/images/3508859/8b23b4e1c4b1f491cee425f30f8c71f9-216x188.jpeg"
+  },
+  {
+    "product_name": "Chicken Popcorn",
+    "price": 4.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Snacks",
+    "image": "https://eda.yandex/images/3191933/a2287e4f1aa7533f8701da6dd0d8ce64-216x188.jpeg"
+  },
+  {
+    "product_name": "Cheesy Bites",
+    "price": 3.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Snacks",
+    "image": "https://eda.yandex/images/2370127/aa86ec195d7f47db3601f89de10571b1-216x188.jpeg"
+  },
+  {
+    "product_name": "Spicy Nuggets",
+    "price": 5.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Snacks",
+    "image": "https://eda.yandex/images/2761069/04e4e2e5c5b265976e7bfb73be583610-216x188.jpeg"
+  },
+  {
+    "product_name": "Onion Rings",
+    "price": 3.49,
+    "PC": "1pc",
+    "available": "Available Soon",
+    "category": "Snacks",
+    "image": "https://eda.yandex/images/1473782/6a23cdb1a0157d015531159cb4add2f5-216x188.jpeg"
+  },
+  {
+    "product_name": "Pepsi",
+    "price": 1.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Drinks",
+    "image": "https://eda.yandex/images/2761069/83477da425e3032bb4c7024ce4352c8d-216x188.jpeg"
+  },
+  {
+    "product_name": "Coke",
+    "price": 1.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Drinks",
+    "image": "https://eda.yandex/images/3805444/ef86a18ab2d5bcdb5bfa8a28fb6dbb0e-216x188.jpeg"
+  },
+  {
+    "product_name": "Fanta",
+    "price": 1.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Drinks",
+    "image": "https://eda.yandex/images/3806315/74a3c2ba778e863cdfce288cf8d9bb7c-216x188.jpeg"
+  },
+  {
+    "product_name": "Sprite",
+    "price": 1.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Drinks",
+    "image": "https://eda.yandex/images/3806315/74a3c2ba778e863cdfce288cf8d9bb7c-216x188.jpeg"
+  },
+  {
+    "product_name": "Iced Tea",
+    "price": 2.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Drinks",
+    "image": "https://eda.yandex/images/3508859/350d98917b582f0a9c6f9afa2d178acb-216x188.jpeg"
+  },
+  {
+    "product_name": "Extra Sauce",
+    "price": 0.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Extras",
+    "image": "https://eda.yandex/images/13912834/317fa039340ce5f6ab5cb1e28abee091-216x188.jpeg"
+  },
+  {
+    "product_name": "Cheese Dip",
+    "price": 1.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Extras",
+    "image": "https://eda.yandex/images/13912834/38e0248ab4c5f937e60aae2b583732a2-216x188.jpeg"
+  },
+  {
+    "product_name": "Garlic Mayo",
+    "price": 1.49,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Extras",
+    "image": "https://eda.yandex/images/1397595/5251170af5dfe9ef87c1cc6139b35429-216x188.jpeg"
+  },
+  {
+    "product_name": "Chili Sauce",
+    "price": 0.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Extras",
+    "image": "https://eda.yandex/images/3772831/2a34b09aa5944d28f47f8db76ab5e31a-216x188.jpeg"
+  },
+  {
+    "product_name": "Ketchup",
+    "price": 0.99,
+    "PC": "1pc",
+    "available": "Available",
+    "category": "Extras",
+    "image": "https://eda.yandex/images/3809330/df015e9b9ddb6a3b67ad713cfa71ab84-216x188.jpeg"
+  }
+]

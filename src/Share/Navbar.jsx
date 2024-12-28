@@ -23,7 +23,7 @@ const Navbar = () => {
                     </div>
                     {/* button */}
                     <div>
-                        <button className="flex gap-1 items-center h-12 rounded-2xl border focus:outline-none text-lg border-[#cecece] py-2 px-5 bg-[#FCE000]" ><IoIosSend className="text-xl" />Enter delivery address</button>
+                        <button className="flex gap-1 items-center h-12 rounded-2xl border focus:outline-none text-lg border-[#cecece] font-medium py-2 px-5 bg-[#FCE000]" ><IoIosSend className="text-xl" />Enter delivery address</button>
                     </div>
                 </div>
                 <div className="pr-7 flex items-center gap-6">
